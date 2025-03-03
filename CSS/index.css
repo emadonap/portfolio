@@ -494,6 +494,7 @@
 }
 #form textarea{
     border-radius: 8px;
+    padding: 2%;
 }
 button{
     font-size: 15px;

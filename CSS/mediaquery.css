@@ -48,6 +48,15 @@
     #thirddiv_box1 {
         padding: 3% 10% 15% 18%;
     }
+    #thirddiv_boxul{
+        margin-left: 45%;
+    }
+    #thirddiv1_box1 ul{
+        margin-left: 30%;
+    }
+    #thirddiv1_box2 ul{
+        margin-left: 50%;
+    }
 }
 /* Surface Pro 7 */
 @media screen and (max-width: 912px) {
@@ -307,6 +316,12 @@
     .danpp {
         margin-left: 35%;
     }
+    #sect h3, #secti h3 {
+        font-size: 40px;
+    }
+    #award_sec {
+        display: none;
+    }
 }
 /* For iphone XR */
 @media screen and (max-width: 414px) {
@@ -319,6 +334,31 @@
     .jet{
         margin: 8px;
     }
+    #sect h3, #secti h3 {
+        font-size: 22px;
+    }
+    .client {
+        margin-left: 30%;
+    }
+    #award_sec {
+        display: none;
+    }
+    #thirddiv1_box2 ul{
+        margin-left: 45%;
+    }
+    #thirddiv1_box1 ul{
+        margin-left: 19%;
+    }
+    #header_name {
+        width: 35%;
+    }
+    .letp, .startp {
+        font-size: 35px;
+    }
+    .danpp {
+        margin-left: 15%;
+    }
+
 }
 /* Pixel 7 */
 @media screen and (max-width: 412px) {
@@ -332,17 +372,41 @@
 @media screen and (max-width: 390px) {
     
 }
-
+/* For iphone SE */
 @media screen and (max-width: 375px) {
     
 }
-
+/* For Galaxy Samsung S8 */
 @media screen and (max-width: 360px) {
+    #header_name {
+        width: 40%;
+    }
     #first_div h1{
         font-size: 30px;
     }
     .things{
         font-size: 3px;
+    }
+    .client {
+        margin-left: 25%;
+    }
+    #thirddivh2 {
+        font-size: 35px;
+    }
+    #thirddiv_boxul {
+        margin-left: 25%;
+    }
+    #thirddiv1_box1 ul {
+        margin-left: 7%;
+    }
+    #thirddiv1_box2 ul {
+        margin-left: 35%;
+    }
+    .letp, .startp {
+        font-size: 30px;
+    }
+    .danpp {
+        margin-left: 6%;
     }
 }
 
