@@ -777,6 +777,10 @@ button:hover{
 .work_div{
     width: 33.3%;
     display: flex;
+    margin: 1%;
+    padding: 5% 2% 5% 2%;
+    border-radius: 15px;
+    background-color: aliceblue;
     flex-direction: column;
     justify-content: center;
     text-align: center;
@@ -794,6 +798,30 @@ button:hover{
 }
 .work_div div img{
     width: 80%;
+}
+.work_div ul{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.work_div ul li{
+    margin-bottom: 10px;
+    /* list-style-image: url('/IMG/icons8-check.gif'); */
+    list-style-position: inside;
+    list-style-type: circle;
+}
+.work_div p a{
+    background-color: rgb(224, 109, 109);
+    font-size: 23px;
+    padding: 13px;
+    border-radius: 10px;
+}
+.work_div p a:hover{
+    background-color: rgb(105, 8, 8);
+    color: white;
+    text-decoration: underline;
+}
+.dash{
+    font-weight: 900;
 }
 
 
@@ -988,4 +1016,11 @@ button:hover{
     width: 45px;
     border-radius: 50px;
     cursor: pointer;
+}
+.cont_danp{
+    display: inline-block;
+}
+.cont_danpp{
+    display: inline-block;
+    margin-left: 250px;
 }
