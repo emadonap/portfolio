@@ -755,6 +755,48 @@ button:hover{
     cursor: pointer;
 }
 
+/* WORKS FIRST SECTION */
+#work_first{
+    width: 100%;
+    background-color: bisque;
+}
+#work_sec{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 2%;
+    flex-direction: row;
+}
+.workh1{
+    font-size: 40px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 5%;
+}
+.work_div{
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.work_div div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.work_div div img{
+    width: 80%;
+}
+
+
 /* SERVICE SECTION */
 
 /* SERVICE HEADER */
