@@ -664,6 +664,7 @@ button:hover{
     box-shadow: 5px 7px 7px rgba(105, 8, 8, 0.68);
     margin-bottom: 6%;
     margin-top: 4%;
+    border-radius: 20px;
 }
 #about_first_sec1 div h2{
     font-size: 20px;
@@ -834,6 +835,38 @@ button:hover{
     cursor: pointer;
 }
 
+/* SERVICE TABLE SECTION */
+#service_first{
+    width: 100%;
+    background-color: antiquewhite;
+}
+#service_article{
+    width: 90%;
+    background-color: rgb(133, 244, 133);
+    margin: auto;
+    display: flex;    
+}
+#service_table{
+    width: 100%;
+    margin-top: 30px;
+}
+#service_table tr th{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+#service_table tr td{
+    padding: 20px;
+    font-size: 18px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+#service_table tr td:hover{
+    background-color: grey;
+    color: white;
+}
 
 /* CONTACT SECTION */
 
