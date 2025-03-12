@@ -96,7 +96,7 @@
     #thirddiv1_box1 ul{
         margin-left: 23%;
     }
-    #footer_div1{
+    .footer_div1{
         padding-left: 10%;
     }
     #thirddiv_sec {
@@ -300,27 +300,61 @@
         font-size: 45px;
     }
 
-    #footer_sec{
+    .footer_sec{
         flex-direction: column;
     }
-    #footer_div{
+    .footer_div{
         width: 95%;
         padding: 3%;
     }
-    #footer_div1 ul {
+    .footer_div1 ul {
         margin-bottom: 20px;
     }
-    #footer_div1{
+    .footer_div1{
         width: 95%;
     }
     .danpp {
-        margin-left: 35%;
+        margin-left: 30%;
     }
     #sect h3, #secti h3 {
         font-size: 40px;
     }
     #award_sec {
         display: none;
+    }
+
+    /* About Section */
+    #about_first_sec{
+        flex-direction: column;
+    }
+    #about_first_div{
+        width: 98%;
+    }
+    #about_first_div1{
+        width: 98%;
+    }
+    #about_first_sec1{
+        flex-wrap: wrap;
+    }
+    #about_first_sec1 div{
+        width: 48%;
+    }
+
+    /* Work Section */
+    #work_sec{
+        flex-direction: column;
+    }
+    .work_div{
+        width: 98%;
+    }
+
+    /* Contact Section */
+    .contact_form_div{
+        /* flex-direction: column; */
+        flex-direction: column-reverse;
+    }
+    .contact_form_div div{
+        width: 98%;
     }
 }
 /* For iphone XR */

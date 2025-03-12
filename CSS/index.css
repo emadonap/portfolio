@@ -910,6 +910,12 @@ button:hover{
     width: 100%;
     background-color: antiquewhite;
 }
+#service_first h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 20px;
+}
 #service_article{
     width: 90%;
     background-color: rgb(133, 244, 133);
@@ -1078,7 +1084,9 @@ button:hover{
     color: white;
     margin-left: 42%;
     cursor: pointer;
-    
+}
+.contact_form button:hover{
+    background-color: rgba(165, 42, 42, 0.918);
 }
 .cont_danp{
     display: inline-block;
