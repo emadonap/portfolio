@@ -7,6 +7,7 @@
     <meta name="keywords" content="HTML, CSS">
     <meta name="author" content="Emmanuel">
     <title>Portfolio</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/mediaquery.css">
 </head>
@@ -20,7 +21,7 @@
           <li><a href="#">Services</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-      </section>
+    </section>
       
     <header id="head">
         <nav id="header">
@@ -135,7 +136,7 @@
                       <p id="thirddivp">Perfect solution for digital experience</p>  
                     </div>
                     
-                    <article id="thirddiv_box">
+                    <article id="thirddiv_box" data-aos="fade-up" data-aos-duration="3000">
                         <h3 id="thirddiv_boxh3">Lewis</h3>
                         <ul id="thirddiv_boxul">
                             <li>Javascript</li>
@@ -277,5 +278,9 @@
     </article>
    </footer>
 
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
    <script src="JS/main.js"></script>
 </body>

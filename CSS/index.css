@@ -215,10 +215,29 @@
     background-color: gray;
     display: flex;
     justify-content: center;
+    padding: 20px 0px;
 
 }
 #first_div1 img{
-    width: 100%;
+    width: 80%;
+    animation: floatImage 4s ease-in-out infinite;
+}
+
+/* This defines a CSS animation named "floatImage" */
+@keyframes floatImage {
+    /* At the start of the animation (0%), the element is in its original position */
+    0%{
+        transform: translateY(0); /* Reset the element's position to its original state */
+    }
+    /* At the midpoint of the animation (50%), the element moves up by 2.4rem */
+    50%{
+        /* Move the element up by 2.4rem to create a floating effect */
+        transform: translateY(-2.4rem); 
+    }
+    /* At the end of the animation (100%), the element returns to its original position */
+    100%{
+        transform: translateY(0); /* Return the element to its original position */
+    }
 }
 
 /* SECOND SECTION */
